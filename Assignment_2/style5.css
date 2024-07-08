@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+html,body{
+    width: 100%;
+    height:100%;
+   
+    
+}
+.wrapper{
+    border:2px solid #7D577A;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: #E1D5E7;
+    
+   
+}
+.slidebar{
+   margin: 0px;
+   
+}
+h2{
+    color: #B5739D;
+    padding: 10px;
+    border: 2px solid #E1D5E7;
+    border-radius: 5%;
+    text-align: center;
+
+}
+ul{
+    width: 20vw;
+    text-align: center;
+}
+li{
+    font-weight: bold;
+    align-items: center;
+    border: 2px solid #7D577A;
+    padding: 10px;
+    border-radius: 5%;
+    /* width: 20vw; */
+    justify-content: center;
+    font-size: larger;
+}
+.user{
+    position: absolute;
+    bottom: 0%;
+    width: 20vw;
+
+}
+.user{
+   background-color:#7D577A;
+   
+}
+.user a{
+    color: #B5739D;
+}
+li a{
+    color: #B5739D;
+}
+i{
+    
+    border: 2px solid #7D577A;
+    padding: 4px;
+   float: left;
+   font-size: 20px;
+   width: 2.5rem;
+   height: 32px;
+   color: white;
+
+
+}
+nav{
+    left: 20%;
+    background-color: #E1D5E7;
+    width:80vw;
+    position:absolute;
+    top: 0;
+    height: 8vh;
+    padding: 2px;
+    border: 2px solid;
+    
+}
+nav i{
+   
+   float: right;
+   border: 2px solid #7D577A;
+   border-radius: 10%;
+   width: 3vw;
+   padding: 0.75vh;
+   margin-top: 5px;
+}
+.search{
+    border:2px solid #7D577A;
+    width: 20vw;
+    height: 5vh;
+    position: absolute;
+    left:77.5%;
+    top: 0.2%;
+    background-color: #E1D5E7;
+    margin-top: 7px;
+    
+}
+.img{
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    border: 2px solid black;
+    
+}
+.form{
+    position: absolute;
+    top:60%;
+    left: 21%;
+}
+.container{
+    
+    position: absolute;
+    top:110%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  
+}
+
+.box{
+width: 5vw;
+height: 5vh;
+float: right;
+border: 2px solid;
+border-radius: 12%;
+}
+#box1{
+    text-align: center;
+    background-color: #007700;
+    color: white;
+
+}
+#box2{
+    color: white;
+    text-align: center;
+    background-color: #d10e0e;
+    
+}
