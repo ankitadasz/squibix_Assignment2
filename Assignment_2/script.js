@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Function to handle the edit functionality
     function handleEditButtonClick(event) {
         const button = event.target;
         const inputField = button.previousElementSibling;
@@ -15,15 +14,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    // Get all edit buttons in the form
+    
     const editButtons = document.querySelectorAll('.form button');
 
-    // Add event listeners to all edit buttons
+    
     editButtons.forEach(button => {
         button.addEventListener('click', handleEditButtonClick);
     });
 
-    // Handle the edit button for the image
+    
     const imgEditButton = document.querySelector('.imgedit');
     const imgElement = document.querySelector('.img img');
 
