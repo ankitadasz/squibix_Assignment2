@@ -133,8 +133,13 @@ input{
     position: absolute;
     top: 10%;
     left: 21%;
-    border: 2px solid black;
     
+    
+}
+.imgedit{
+    position: absolute;
+    top: 55%;
+    left: 47%;
 }
 .form{
     position: absolute;
@@ -174,13 +179,7 @@ input{
   
 }
 
-.box{
-width: 5vw;
-height: 5vh;
-float: right;
-border: 2px solid;
 
-}
 #box1{
     text-align: center;
     background-color: #007700;
@@ -192,4 +191,21 @@ border: 2px solid;
     text-align: center;
     background-color: #d10e0e;
     
+}
+button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0c0808;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555d64;
+}
+
+.hidden {
+    display: none;
 }
