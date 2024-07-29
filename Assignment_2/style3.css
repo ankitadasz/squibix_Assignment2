@@ -54,6 +54,11 @@ li{
     width: 20vw;
 
 }
+#work{
+    width: 20vw;
+    height: 8vh;
+   justify-content: center;
+}
 #col{
    background-color: #7D577A;
    
@@ -103,10 +108,27 @@ nav i{
     position: absolute;
     left:77.5%;
     top: 0.2%;
-    background-color: #E1D5E7;
+    background-color: #7D577A;
     margin-top: 7px;
+    color: aliceblue;
+
     
 }
+input{
+    background-color: #7D577A;
+    border: none;
+    color: aliceblue;
+}
+::placeholder {
+    color: rgb(251, 248, 248);
+    opacity: 1; 
+
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(242, 240, 240);
+    
+  }
 .tab{
     empty-cells: show;
     justify-content: center;
