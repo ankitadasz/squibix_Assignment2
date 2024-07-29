@@ -58,6 +58,11 @@ li{
    background-color:#7D577A;
    
 }
+#work{
+    width: 20vw;
+    height: 8vh;
+   justify-content: center;
+}
 .user a{
     color: #B5739D;
 }
@@ -103,10 +108,27 @@ nav i{
     position: absolute;
     left:77.5%;
     top: 0.2%;
-    background-color: #E1D5E7;
+    background-color: #7D577A;
     margin-top: 7px;
+    color: aliceblue;
+
     
 }
+input{
+    background-color: #7D577A;
+    border: none;
+    color: aliceblue;
+}
+::placeholder {
+    color: rgb(12, 12, 12);
+    opacity: 1; 
+
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(10, 10, 10);
+    
+  }
 .img{
     position: absolute;
     top: 10%;
@@ -119,6 +141,27 @@ nav i{
     top:60%;
     left: 21%;
 }
+#name{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}
+#mail{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}
+#no{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}
+#date{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}
+
 .container{
     
     position: absolute;
@@ -136,6 +179,7 @@ width: 5vw;
 height: 5vh;
 float: right;
 border: 2px solid;
+
 }
 #box1{
     text-align: center;
